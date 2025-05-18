@@ -20,7 +20,7 @@ const Jacket = ({ position }) => {
       <primitive
         ref={modelRef}
         object={gltf.scene}
-        position={[0,-1,0]}
+        position={position}
         scale={1}
       />
     </>
